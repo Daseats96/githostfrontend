@@ -1,0 +1,135 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+/*
+Only used for the icon in the banner
+ */
+.GitHostIconBanner{
+    vertical-align: top;
+    float: left;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 100%;
+    height: 50px;
+    width: 50px;
+}
+
+/*
+Only used for the login box
+ */
+.LoginGitHostIcon{
+    margin-top: 10%;
+    margin-left: 38%;
+    margin-right: 38%;
+    border-radius: 100%;
+    height: 100px;
+    width: 100px;
+}
+
+/*
+Banner settings
+ */
+.Banner{
+    position: absolute;
+    display: table-cell;
+    padding-top:20px;
+    cursor: pointer;
+    width: 1920px;
+    height: 70px;
+    background-color: #000000;
+    margin: 0;
+}
+
+/*
+Font for the text in the banner
+ */
+.BannerFont{
+    vertical-align: top;
+    float: left;
+    color: white;
+    font-size: 36px;
+    font-family: "Roboto m";
+    padding-left: 10px;
+}
+
+/*
+The login box, the biggest div
+ */
+.LoginBox{
+    border-radius: 20px;
+    background-color: #000000;
+    display: grid;
+    margin-left: 39%;
+    margin-right: 39%;
+    margin-top: 100px;
+    width: 22%;
+    height: 600px;
+}
+
+/*
+Parent DIV of everything in the login page,
+except for the banner.
+ */
+.LoginPageContainer{
+    position:absolute;
+    height: 1080px;
+    width: 1920px;
+    background-color: #1F3B4D;
+}
+
+/*
+Used for centering and such
+ */
+.LoginInputBox{
+    padding: 10px 26%;
+}
+
+.LoginInputBoxCSS{
+    border-radius: 8px;
+    font-family:inherit;
+    border:0;
+    border-bottom: 2px solid gray;
+    outline:0;
+    color: white;
+    padding: 7px 0;
+    background:transparent;
+    transition: border-color 0.2s;
+}
+
+.forgotPassword_RegisterFont{
+    text-decoration-line: none;
+    padding-left:26%;
+    font-family: inherit;
+    font-size: 10px;
+    color: white;
+}
+.LoginForm{
+    padding-bottom: 60%;
+}
+
+.SubmitLoginFormDIV{
+    padding-top: 10px;
+    padding-left: 35%;
+    padding-right: 35%;
+}
+.SubmitLoginForm{
+    border-width: 0px;
+    border-color: darkgreen;
+    border-radius: 20px;
+    cursor: pointer;
+    height: 40px;
+    width: 120px;
+    background-color: #2E2EFF;
+    color: white;
+}
+
+
+/**
+Resizes based on screen size
+ */
+@media only screen and (max-width: 400px){
+
+}
